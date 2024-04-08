@@ -35,6 +35,7 @@ jobs:
       - name: Push Docker image
         run: |
           docker push admoises/docker-graphql:0.0.2
+          docker push admoises/docker-graphql:latest
           
       
     # - name: Build the Docker image
